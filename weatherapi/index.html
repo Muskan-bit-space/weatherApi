@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="../axios/axiosmin.js"></script>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <script src="../axios/axiosmin.js"></script>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Weather API</h1>
-<input type="text" placeholder="enter city">
-<br>
-<button>Get Weather</button>
-<div id="result"></div>
-
-    <script src="./script.js"></script>
+  <div class="container">
+    <h1>🌤️ Weather App</h1>
+    <div class="search-box">
+      <input type="text" id="city" placeholder="Enter city name">
+      <button id="getWeather">Search</button>
+    </div>
+    <div id="result" class="result-card"></div>
+    <div class="photo"></div>
+  </div>
+  <script src="./script.js"></script>
 </body>
 </html>
-
-
